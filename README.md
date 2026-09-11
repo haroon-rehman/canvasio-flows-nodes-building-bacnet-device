@@ -1,3 +1,73 @@
+# BACnet Device
+
+Canvas IO Workflows — maintained integration/fork of an independent Node-RED node package.
+
+## Canvas IO
+
+| | |
+|--|--|
+| Domain | Building / BACnet |
+| Development status | Integrated in local harness (cio-wfs-dev) |
+| Palette category (operational) | `Canvas IO` |
+| Config nodes | remain `category: "config"` |
+| Local repository | `cio-wfs-nodes/cio-wfs-node-building-bacnet-device` |
+| npm package name | `node-red-contrib-bacnet-device` (unchanged) |
+
+`cio-wfs-nodes` is an organizational parent only — not a monorepo. One node package = one Git repository.
+
+This repository is a **Canvas IO-maintained integration/fork**. Protocol and node runtime logic originate from upstream; Canvas IO changes are limited to integration, presentation, and local development packaging.
+
+## Nodes
+
+### Operational (palette: Canvas IO)
+
+- `bacnet-device`
+
+### Configuration
+
+- (none registered as config category)
+
+## Development
+
+```powershell
+cd C:\GitHub\canvasio\cio-wfs-nodes\cio-wfs-node-building-bacnet-device
+npm install
+```
+
+Local harness:
+
+```powershell
+cd C:\GitHub\canvasio\cio-wfs-dev
+npm install
+cd C:\GitHub\canvasio\cio-wfs-core
+node packages/node_modules/node-red/red.js --userDir C:\GitHub\canvasio\cio-wfs-dev
+```
+
+Open http://localhost:1880
+
+## Testing
+
+No automated test suite in this repository.
+
+## Upstream
+
+| | |
+|--|--|
+| Original package | `node-red-contrib-bacnet-device` |
+| Upstream project | https://github.com/daps1005-debug/node-red-contrib-bacnet-device |
+
+Canvas IO does not claim authorship of the original upstream implementation.
+
+## License
+
+MIT — see ``LICENSE``.
+
+---
+
+## Upstream documentation
+
+The following sections retain useful upstream technical documentation (adapted only where needed).
+
 # node-red-contrib-bacnet-device
 
 BACnet Device polling node for Node-RED using bacstack.
