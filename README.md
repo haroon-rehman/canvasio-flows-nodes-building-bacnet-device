@@ -1,7 +1,7 @@
 # BACnet Device (RETIRED)
 
 > **RETIRED** — BACnet Device (`bacnet-device`) is now maintained in
-> `cio-wfs-node-building-bacnet` (`@halsystems/red-bacnet`).
+> `canvasio-flows-node-building-bacnet` (`@halsystems/red-bacnet`).
 >
 > Do not install this package in the Canvas IO harness or Node Pack.
 > This repository is retained for historical reference only.
@@ -19,8 +19,8 @@ with Discover, Read, and Write.
 |--|--|
 | Domain | Building / BACnet |
 | Status | **Retired** |
-| Successor | `cio-wfs-nodes/cio-wfs-node-building-bacnet` |
+| Successor | `canvasio-flows-nodes/canvasio-flows-node-building-bacnet` |
 | npm package name | `node-red-contrib-bacnet-device` (do not use) |
 | Registered type (historical) | `bacnet-device` |
 
-`cio-wfs-nodes` is an organizational parent only — not a monorepo.
+`canvasio-flows-nodes` is an organizational parent only — not a monorepo.
